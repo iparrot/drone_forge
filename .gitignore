@@ -1,0 +1,16 @@
+﻿# s&box compiled/generated output
+.addon/
+.import/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+bin/
+obj/
+
+# OS
+Thumbs.db
+.DS_Store

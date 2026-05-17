@@ -1,0 +1,37 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+  </Configurations>
+  <Project Path="Code/drone_forge.csproj" />
+  <Project Path="Editor/drone_forge.editor.csproj" />
+  <Folder Name="/Addons/">
+    <Project Path="../../../../../Program Files (x86)/Steam/steamapps/common/sbox/addons/base/code/Base Library.csproj" />
+  </Folder>
+  <Folder Name="/Libraries/">
+    <Project Path="Libraries/aniomatic.snaptoground/Editor/snaptoground.editor.csproj" />
+    <Project Path="Libraries/bugge.vehicle_controller/Code/vehicle_controller.csproj" />
+    <Project Path="Libraries/conna.inventory/Code/inventory.csproj" />
+    <Project Path="Libraries/dreams.ultimatelightmanager/Code/ultimatelightmanager.csproj" />
+    <Project Path="Libraries/dreams.ultimatelightmanager/Editor/ultimatelightmanager.editor.csproj" />
+    <Project Path="Libraries/dreams.ultimatelightmanager/UnitTests/ultimatelightmanager.unittest.csproj" />
+    <Project Path="Libraries/facepunch.libstates/Code/libstates.csproj" />
+    <Project Path="Libraries/facepunch.libstates/Editor/libstates.editor.csproj" />
+    <Project Path="Libraries/facepunch.libstates/UnitTests/libstates.unittest.csproj" />
+    <Project Path="Libraries/icu.ai-chat/Code/ai-chat.csproj" />
+    <Project Path="Libraries/icu.ai-chat/Editor/ai-chat.editor.csproj" />
+    <Project Path="Libraries/sboxcool.network-storage/Code/network-storage.csproj" />
+    <Project Path="Libraries/sboxcool.network-storage/Editor/network-storage.editor.csproj" />
+    <Project Path="Libraries/sboxcool.network-storage/UnitTests/network-storage.unittest.csproj" />
+    <Project Path="Libraries/sboxskinsgg.claudebridge/Code/claudebridge.csproj" />
+    <Project Path="Libraries/sboxskinsgg.claudebridge/Editor/claudebridge.editor.csproj" />
+    <Project Path="Libraries/sboxskinsgg.claudebridge/UnitTests/claudebridge.unittest.csproj" />
+  </Folder>
+  <Folder Name="/Tools/">
+    <Project Path="../../../../../Program Files (x86)/Steam/steamapps/common/sbox/addons/tools/Code/Base Editor Library.csproj" />
+    <Project Path="../../../../../Program Files (x86)/Steam/steamapps/common/sbox/editor/ActionGraph/Code/actiongraph.csproj" />
+    <Project Path="../../../../../Program Files (x86)/Steam/steamapps/common/sbox/editor/DooEditor/Code/dooeditor.csproj" />
+    <Project Path="../../../../../Program Files (x86)/Steam/steamapps/common/sbox/editor/Hammer/Code/hammer.csproj" />
+    <Project Path="../../../../../Program Files (x86)/Steam/steamapps/common/sbox/editor/MovieMaker/Code/moviemaker.csproj" />
+    <Project Path="../../../../../Program Files (x86)/Steam/steamapps/common/sbox/editor/ShaderGraph/Code/shadergraph.csproj" />
+  </Folder>
+</Solution>

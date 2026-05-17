@@ -1,0 +1,18 @@
+{
+  "Title": "S&box AI Helper",
+  "Type": "library",
+  "Org": "icu",
+  "Ident": "ai-chat",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Mounts": null,
+  "IsStandaloneOnly": false,
+  "Metadata": {
+    "Summary": "AI chatbot integrated into the S&box editor. Uses Ollama for free local AI.",
+    "Description": "Adds an AI Chat panel to the S&box editor. Chat with a local AI assistant while you work. Requires Ollama running locally.",
+    "CsProjName": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Weight": 1,
+  "SellPrice": 1,
+  "BuyPrice": 2,
+  "Rarity": "Common",
+  "Icon": "economy items/icons/bug_net.sprite",
+  "Description": "T1 weapon to catch drones without destroying components",
+  "ItemCategory": "Misc",
+  "IsDroppable": true,
+  "IsSellable": true,
+  "IsBuyable": true,
+  "IsLootable": true,
+  "CapacityBonus": 0,
+  "DisplayName": "Bug net",
+  "Category": "Weapon",
+  "MaxStackSize": 1,
+  "Width": 1,
+  "Height": 2,
+  "__references": [],
+  "__version": 0
+}

@@ -1,0 +1,14 @@
+{
+  "Title": "Snap To Ground",
+  "Type": "library",
+  "Org": "aniomatic",
+  "Ident": "snaptoground",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Mounts": null,
+  "IsStandaloneOnly": false,
+  "Metadata": {}
+}

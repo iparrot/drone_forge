@@ -1,0 +1,277 @@
+{
+  "LocalAssetBrowser.History": {
+    "Value": "[\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\\\\scenes\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\assets\\\\models\\\\map_v1\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\maps\\\\templates\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\maps\\\\editor\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\maps\\\\dev\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\maps\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\tools\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\sounds\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\shaders\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\shadercache\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\resource\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\vr\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\materials\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\materials\\\\dev\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\dev\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\debug\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\cfg\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\models\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\materials\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\materials\\\\default\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\maps\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\\\\Models\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\\\\Models\\\\Map_v1\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\base\\\\Assets\\\\prefabs\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\base\\\\Assets\\\\maps\\\\prefabs\\\\doors\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\base\\\\Assets\\\\maps\\\\prefabs\\\\environments\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\models\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\\\\dmx\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\\\\dmx\\\\mesh\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\\\\maya\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\\\\new_model\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\\\\new_model\\\\materials\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\\\\new_model\\\\maya\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\\\\new_model\\\\dmx\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\maps\\\\templates\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\models\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\models\\\\citizen\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\models\\\\citizen_clothes\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\models\\\\citizen_human\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\models\\\\first_person\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\models\\\\citizen_props\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\models\\\\citizen_mannequin\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\models\\\\citizen_props\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\citizen\\\\assets\\\\maps\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\base\\\\Assets\\\\prefabs\\\\surface\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\addons\\\\base\\\\Assets\\\\prefabs\\\\engine\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\\\\Prefabs\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\dreams.ultimatelightmanager\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\dreams.ultimatelightmanager\\\\UnitTests\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\dreams.ultimatelightmanager\\\\ProjectSettings\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\dreams.ultimatelightmanager\\\\Editor\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\dreams.ultimatelightmanager\\\\Code\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\dreams.ultimatelightmanager\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\dreams.ultimatelightmanager\\\\Editor\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\dreams.ultimatelightmanager\\\\Code\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\dreams.ultimatelightmanager\\\\ProjectSettings\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\dreams.ultimatelightmanager\\\\UnitTests\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\dreams.ultimatelightmanager\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\facepunch.libstates\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\facepunch.libstates\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\conna.inventory\\\\ProjectSettings\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\conna.inventory\\\\Code\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\conna.inventory\\\\Code\\\\ui\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\editor\\\\ActionGraph\u0022,\u0022C:\\\\Program Files (x86)\\\\Steam\\\\steamapps\\\\common\\\\sbox\\\\editor\\\\ActionGraph\\\\Code\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\bugge.vehicle_controller\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\bugge.vehicle_controller\\\\Assets\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\bugge.vehicle_controller\\\\Assets\\\\scenes\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\icu.ai-chat\u0022,\u0022C:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\icu.ai-chat\\\\ProjectSettings\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\icu.ai-chat\\\\Editor\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\icu.ai-chat\\\\Code\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\icu.ai-chat\\\\Editor\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\icu.ai-chat\\\\Code\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\icu.ai-chat\\\\Editor\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\icu.ai-chat\\\\Code\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\icu.ai-chat\\\\Editor\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Libraries\\\\icu.ai-chat\\\\Code\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Code\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\assets\\\\prefabs\u0022]",
+    "Timeout": 1781613775,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.HistoryIdx": {
+    "Value": "88",
+    "Timeout": 1781613775,
+    "DeleteAt": 0
+  },
+  "scenes/basic_example.scene.Viewport0": {
+    "Value": "{\u0022CameraPosition\u0022:\u0022-0.00499999896,-0.00499999989,0.00707106804\u0022,\u0022CameraRotation\u0022:\u0022-0.14644663,0.353553414,0.353553414,0.853553355\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1781052378,
+    "DeleteAt": 0
+  },
+  "SceneView.Viewport0.Settings": {
+    "Value": "{\u0022CameraPosition\u0022:\u00221326.30701,1634.47119,890.17749\u0022,\u0022CameraRotation\u0022:\u00220.141508162,0.0509457849,-0.930179119,0.334883183\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022EnablePrefabLighting\u0022:true,\u0022ShowSkyIn2D\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1781616783,
+    "DeleteAt": 0
+  },
+  "Window.SboxSceneEditor.Dock": {
+    "Value": "{\u0022floatingWindows\u0022:[],\u0022mainWrapper\u0022:{\u0022geometry\u0022:\u0022AdnQywADAAAAAAAAAAAAAAAAB3cAAAPLAAAAAAAAAAAAAAd3AAADywAAAAAAAAAAB4AAAAAAAAAAAAAAB3cAAAPL\u0022,\u0022splitter\u0022:{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneTreeWidget\u0022,\u0022name\u0022:\u0022Hierarchy\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PanelInspectorWidget\u0022,\u0022name\u0022:\u0022UI Panels\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022items\u0022:[{\u0022items\u0022:[{\u0022currentIndex\u0022:1,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/dev_playground.scene\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:prefabs/player controller.prefab\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:1,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MixerDock\u0022,\u0022name\u0022:\u0022Mixer\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MainAssetBrowser\u0022,\u0022name\u0022:\u0022Asset Browser\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAACqgAAAh0A/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022},{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022Inspector\u0022,\u0022name\u0022:\u0022Inspector\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:1,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PerformanceDock\u0022,\u0022name\u0022:\u0022Performance\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022ConsoleWidget\u0022,\u0022name\u0022:\u0022Console\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAEuQAAAVEA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAD3wAAAyQA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAA8wAABoEA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}},\u0022toolWindowManagerStateFormat\u0022:1}",
+    "Timeout": 1781612854,
+    "DeleteAt": 0
+  },
+  "scenes/top_down_example.scene.Viewport0": {
+    "Value": "{\u0022CameraPosition\u0022:\u0022-313.887299,12.5466404,925.771606\u0022,\u0022CameraRotation\u0022:\u00220.00308389799,0.589187384,-0.00422908878,0.807979405\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1781035430,
+    "DeleteAt": 0
+  },
+  ".Viewport0": {
+    "Value": "{\u0022CameraPosition\u0022:\u00221326.30701,1634.47119,890.17749\u0022,\u0022CameraRotation\u0022:\u00220.141508162,0.0509457849,-0.930179119,0.334883183\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1781613798,
+    "DeleteAt": 0
+  },
+  "SceneView.Layout": {
+    "Value": "{\u0022Layout\u0022:0,\u0022SplitterState\u0022:[]}",
+    "Timeout": 1781613961,
+    "DeleteAt": 0
+  },
+  "scenes/dev_playground.scene.Viewport0": {
+    "Value": "{\u0022CameraPosition\u0022:\u00221326.30701,1634.47119,890.17749\u0022,\u0022CameraRotation\u0022:\u00220.141508162,0.0509457849,-0.930179119,0.334883183\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1781616783,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Model.History": {
+    "Value": "[\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\u0022,\u0022c:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\\\\Models\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\\\\Models\\\\Map_v1\u0022]",
+    "Timeout": 1781129642,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Model.HistoryIdx": {
+    "Value": "4",
+    "Timeout": 1781129642,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Material.History": {
+    "Value": "[\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\assets\\\\materials\u0022]",
+    "Timeout": 1781555095,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Material.HistoryIdx": {
+    "Value": "1",
+    "Timeout": 1781555095,
+    "DeleteAt": 0
+  },
+  "gizmo.settings": {
+    "Value": "{\u0022EditMode\u0022:\u0022position\u0022,\u0022Selection\u0022:true,\u0022ViewMode\u0022:\u00223d\u0022,\u0022GizmosEnabled\u0022:true,\u0022GizmoScale\u0022:1,\u0022WorldSpaceGizmos\u0022:false,\u0022GizmoDepthTest\u0022:false,\u0022GizmoRenderDistance\u0022:0,\u0022GridSpacing\u0022:32,\u0022SnapToGrid\u0022:false,\u0022SnapToAngles\u0022:true,\u0022AngleSpacing\u0022:15,\u0022GlobalSpace\u0022:false,\u0022DebugActionGraphs\u0022:false,\u0022DisabledGizmos\u0022:{}}",
+    "Timeout": 1781612840,
+    "DeleteAt": 0
+  },
+  "expand.46523eef-a317-4c79-9635-3f1a8a1d3a48.SpriteRenderer": {
+    "Value": "false",
+    "Timeout": 1781056134,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Map.History": {
+    "Value": "[\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\u0022,\u0022c:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\maps\\\\templates\u0022,\u0022c:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\maps\\\\dev\u0022,\u0022c:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\maps\\\\dev\u0022,\u0022c:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\maps\\\\dev\u0022]",
+    "Timeout": 1781129455,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Map.HistoryIdx": {
+    "Value": "4",
+    "Timeout": 1781129455,
+    "DeleteAt": 0
+  },
+  "expand.10d59134-3dd4-40ab-9e36-3ae7c27d8055.PlaneCollider": {
+    "Value": "false",
+    "Timeout": 1781610193,
+    "DeleteAt": 0
+  },
+  "Window.SboxHammer.Dock": {
+    "Value": "{\u0022floatingWindows\u0022:[],\u0022mainWrapper\u0022:{\u0022geometry\u0022:\u0022AdnQywADAAAAAAAAAAAAAAAABgYAAAM9AAAAAAAAAAAAAAYGAAADPQAAAAAAAAAAB4AAAAAAAAAAAAAABgYAAAM9\u0022,\u0022splitter\u0022:{\u0022items\u0022:[{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022\u0022,\u0022name\u0022:\u0022Tool Properties\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022\u0022,\u0022name\u0022:\u0022Active Material\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAABaAAAAH8A/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022},{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022\u0022,\u0022name\u0022:\u0022Map View\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022HammerAssetBrowser\u0022,\u0022name\u0022:\u0022Asset Browser\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022HammerCloudBrowser\u0022,\u0022name\u0022:\u0022Cloud Browser\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAADsQAAAfYA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022},{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022\u0022,\u0022name\u0022:\u0022Outliner\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022\u0022,\u0022name\u0022:\u0022Selection Sets\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022\u0022,\u0022name\u0022:\u0022Object Properties\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAA8AAAAPAA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAADAAABYgAABFMAAAFqAP////8BAAAAAQA=\u0022,\u0022type\u0022:\u0022splitter\u0022}},\u0022toolWindowManagerStateFormat\u0022:1}",
+    "Timeout": 1781611566,
+    "DeleteAt": 0
+  },
+  "scenes/vehicle_test.scene.Viewport0": {
+    "Value": "{\u0022CameraPosition\u0022:\u0022-0.00499999896,-0.00499999989,0.00707106804\u0022,\u0022CameraRotation\u0022:\u00220.371715277,0.194329351,-0.80447644,0.420572907\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1781149031,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Prefab.History": {
+    "Value": "[\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\libraries\\\\bugge.vehicle_controller\\\\assets\\\\prefabs\u0022]",
+    "Timeout": 1781148350,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Prefab.HistoryIdx": {
+    "Value": "1",
+    "Timeout": 1781148350,
+    "DeleteAt": 0
+  },
+  "expand.66d4a67c-d640-470f-bf34-97a9f2817dc1.VehicleController": {
+    "Value": "false",
+    "Timeout": 1781149023,
+    "DeleteAt": 0
+  },
+  "expand.66d4a67c-d640-470f-bf34-97a9f2817dc1.Rigidbody": {
+    "Value": "false",
+    "Timeout": 1781149023,
+    "DeleteAt": 0
+  },
+  "expand.66d4a67c-d640-470f-bf34-97a9f2817dc1.BoxCollider": {
+    "Value": "false",
+    "Timeout": 1781149023,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.ViewMode": {
+    "Value": "0",
+    "Timeout": 1781612841,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.ShowJunkFiles": {
+    "Value": "false",
+    "Timeout": 1781612841,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.HideNonAssets": {
+    "Value": "false",
+    "Timeout": 1781612841,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.ShowRecursiveFiles": {
+    "Value": "false",
+    "Timeout": 1781612841,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Search": {
+    "Value": "\u0022\u0022",
+    "Timeout": 1781612841,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.ActiveTags": {
+    "Value": "\u0022\u0022",
+    "Timeout": 1781612841,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.ExcludedTags": {
+    "Value": "\u0022\u0022",
+    "Timeout": 1781612841,
+    "DeleteAt": 0
+  },
+  "prefabs/player controller.prefab.Viewport0": {
+    "Value": "{\u0022CameraPosition\u0022:\u0022154.271561,-41.2860336,57.616478\u0022,\u0022CameraRotation\u0022:\u0022-0.0682964101,0.00899143703,0.989089668,0.130216762\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1781613961,
+    "DeleteAt": 0
+  },
+  "expand.3cfc93a6-ab1e-43db-be69-01d0e262a4a8.PlayerController": {
+    "Value": "false",
+    "Timeout": 1781613865,
+    "DeleteAt": 0
+  },
+  "expand.3cfc93a6-ab1e-43db-be69-01d0e262a4a8.MoveModeSwim": {
+    "Value": "false",
+    "Timeout": 1781613865,
+    "DeleteAt": 0
+  },
+  "expand.3cfc93a6-ab1e-43db-be69-01d0e262a4a8.MoveModeLadder": {
+    "Value": "false",
+    "Timeout": 1781613865,
+    "DeleteAt": 0
+  },
+  "expand.6eedece3-fef4-4e64-90a2-4b11e4dcbcf1.SkinnedModelRenderer": {
+    "Value": "false",
+    "Timeout": 1781610264,
+    "DeleteAt": 0
+  },
+  "expand.c549c4ae-5883-42b3-9190-f26f74e48daa.ParticleSpriteRenderer": {
+    "Value": "false",
+    "Timeout": 1781325550,
+    "DeleteAt": 0
+  },
+  "expand.91ebede5-ab3f-4229-b7d6-4b13462f984c.CameraComponent": {
+    "Value": "false",
+    "Timeout": 1781612872,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Sprite.History": {
+    "Value": "[\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\\\\Economy Items\u0022,\u0022c:\\\\users\\\\rychk\\\\documents\\\\s\\u0026box projects\\\\drone_forge\\\\Assets\\\\Economy Items\\\\Icons\u0022]",
+    "Timeout": 1781326988,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Sprite.HistoryIdx": {
+    "Value": "3",
+    "Timeout": 1781326988,
+    "DeleteAt": 0
+  },
+  "expand.3cfc93a6-ab1e-43db-be69-01d0e262a4a8.Dresser": {
+    "Value": "false",
+    "Timeout": 1781613865,
+    "DeleteAt": 0
+  },
+  "expand.109be897-7445-486c-9be1-3939ddb47a52.ModelRenderer": {
+    "Value": "false",
+    "Timeout": 1781615689,
+    "DeleteAt": 0
+  },
+  "expand.109be897-7445-486c-9be1-3939ddb47a52.BoxCollider": {
+    "Value": "false",
+    "Timeout": 1781615689,
+    "DeleteAt": 0
+  },
+  "expand.109be897-7445-486c-9be1-3939ddb47a52.Rigidbody": {
+    "Value": "false",
+    "Timeout": 1781615689,
+    "DeleteAt": 0
+  },
+  "expand.b220bdd3-0152-4eb6-a3e1-e0b868708928.Dresser": {
+    "Value": "false",
+    "Timeout": 1781613624,
+    "DeleteAt": 0
+  },
+  "expand.b220bdd3-0152-4eb6-a3e1-e0b868708928.MoveModeLadder": {
+    "Value": "false",
+    "Timeout": 1781613625,
+    "DeleteAt": 0
+  },
+  "expand.b220bdd3-0152-4eb6-a3e1-e0b868708928.MoveModeSwim": {
+    "Value": "false",
+    "Timeout": 1781613626,
+    "DeleteAt": 0
+  },
+  "expand.b220bdd3-0152-4eb6-a3e1-e0b868708928.MoveModeWalk": {
+    "Value": "false",
+    "Timeout": 1781613627,
+    "DeleteAt": 0
+  },
+  "expand.b220bdd3-0152-4eb6-a3e1-e0b868708928.PlayerController": {
+    "Value": "false",
+    "Timeout": 1781613629,
+    "DeleteAt": 0
+  },
+  "expand.109be897-7445-486c-9be1-3939ddb47a52.PlayerInventoryManager": {
+    "Value": "false",
+    "Timeout": 1781615689,
+    "DeleteAt": 0
+  },
+  "expand.3cfc93a6-ab1e-43db-be69-01d0e262a4a8.PlayerInventoryManager": {
+    "Value": "false",
+    "Timeout": 1781613911,
+    "DeleteAt": 0
+  },
+  "expand.3cfc93a6-ab1e-43db-be69-01d0e262a4a8.PlayerWallet": {
+    "Value": "false",
+    "Timeout": 1781613913,
+    "DeleteAt": 0
+  },
+  "expand.3cfc93a6-ab1e-43db-be69-01d0e262a4a8.PlayerInventoryUI": {
+    "Value": "false",
+    "Timeout": 1781613914,
+    "DeleteAt": 0
+  },
+  "expand.3cfc93a6-ab1e-43db-be69-01d0e262a4a8.MoveModeWalk": {
+    "Value": "false",
+    "Timeout": 1781613915,
+    "DeleteAt": 0
+  }
+}

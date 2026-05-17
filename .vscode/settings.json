@@ -1,0 +1,28 @@
+{
+  "files.associations": {
+    "*.shader": "slang",
+    "*.hlsl": "slang"
+  },
+  "slang.additionalSearchPaths": [
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\core\\shaders",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\addons\\base\\Assets\\shaders",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\addons\\menu\\Assets\\shaders",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\addons\\tools\\Assets\\shaders",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\editor\\ShaderGraph\\Assets\\shaders",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\editor\\ActionGraph\\Assets\\shaders",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\editor\\MovieMaker\\Assets\\shaders",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\editor\\Hammer\\Assets\\shaders",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\editor\\DooEditor\\Assets\\shaders",
+    "c:\\users\\rychk\\documents\\s\u0026box projects\\drone_forge\\Assets\\shaders",
+    "c:\\users\\rychk\\documents\\s\u0026box projects\\drone_forge\\Libraries\\aniomatic.snaptoground\\Assets\\shaders",
+    "c:\\users\\rychk\\documents\\s\u0026box projects\\drone_forge\\Libraries\\bugge.vehicle_controller\\Assets\\shaders",
+    "c:\\users\\rychk\\documents\\s\u0026box projects\\drone_forge\\Libraries\\conna.inventory\\Assets\\shaders",
+    "c:\\users\\rychk\\documents\\s\u0026box projects\\drone_forge\\Libraries\\dreams.ultimatelightmanager\\Assets\\shaders",
+    "c:\\users\\rychk\\documents\\s\u0026box projects\\drone_forge\\Libraries\\facepunch.libstates\\Assets\\shaders",
+    "c:\\users\\rychk\\documents\\s\u0026box projects\\drone_forge\\Libraries\\icu.ai-chat\\Assets\\shaders",
+    "c:\\users\\rychk\\documents\\s\u0026box projects\\drone_forge\\Libraries\\sboxcool.network-storage\\Assets\\shaders",
+    "c:\\users\\rychk\\documents\\s\u0026box projects\\drone_forge\\Libraries\\sboxskinsgg.claudebridge\\Assets\\shaders"
+  ],
+  "slang.predefinedMacros": [],
+  "slang.workspaceFlavor": "vfx"
+}

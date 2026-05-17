@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>package.icu.ai-chat</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "T:AIChatbot" -->
+        <!-- Badly formed XML comment ignored for member "P:AIChatbot.SboxSystemPrompt" -->
+    </members>
+</doc>

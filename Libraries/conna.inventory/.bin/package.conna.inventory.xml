@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>package.conna.inventory</name>
+    </assembly>
+    <members>
+        <member name="T:Conna.Inventory.BaseInventory">
+            <summary>
+            Base grid inventory with tetris-style packing and stacking. Inherit to implement special rules.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.BaseInventory.Width">
+            <summary>
+            The width of the inventory in grid cells.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.BaseInventory.Height">
+            <summary>
+            The height of the inventory in grid cells.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.BaseInventory.SlotMode">
+            <summary>
+            Determines how items occupy space in this inventory.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.BaseInventory.InventoryId">
+            <summary>
+            Unique identifier of the inventory.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.BaseInventory.IsNetworked">
+            <summary>
+            Returns true if the inventory is currently being synced across the network.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.BaseInventory.Network">
+            <summary>
+            Access to the networked inventory. You can make networked changes to the inventory using this object.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.BaseInventory.Caller">
+            <summary>
+            When inside a method with the <see cref="T:Conna.Inventory.HostAttribute"/> this will be the <see cref="T:Sandbox.Connection"/>
+            that called the method remotely.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.BaseInventory.HasAuthority">
+            <summary>
+            Check if we can modify this inventory directly.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.AddSubscriber(System.Guid)">
+            <summary>
+            Adds a new subscriber to the inventory using the provided connection identifier. If the inventory is networked, has authority, and
+            the connection is not the local one, it sends the full state of the inventory to the specified subscriber.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.RemoveSubscriber(System.Guid)">
+            <summary>
+            Removes a subscriber from the inventory.
+            </summary>
+        </member>
+        <member name="F:Conna.Inventory.BaseInventory.OnItemAdded">
+            <summary>
+            Called when an item is added to the inventory.
+            </summary>
+        </member>
+        <member name="F:Conna.Inventory.BaseInventory.OnItemRemoved">
+            <summary>
+            Called when an item is removed from the inventory.
+            </summary>
+        </member>
+        <member name="F:Conna.Inventory.BaseInventory.OnInventoryChanged">
+            <summary>
+            Called when the inventory is changed in some way.
+            </summary>
+        </member>
+        <member name="F:Conna.Inventory.BaseInventory.OnItemMoved">
+            <summary>
+            Called when an item is moved within the inventory.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.GetEffectiveWidth(Conna.Inventory.InventoryItem)">
+            <summary>
+            Gets the effective width of an item in this inventory based on the slot mode.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.GetEffectiveHeight(Conna.Inventory.InventoryItem)">
+            <summary>
+            Gets the effective height of an item in this inventory based on the slot mode.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.TryGetSlot(Conna.Inventory.InventoryItem,Conna.Inventory.InventorySlot@)">
+            <summary>
+            Attempts to retrieve the inventory slot associated with the specified inventory item.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.GetItemAt(System.Int32,System.Int32)">
+            <summary>
+            Retrieves the inventory item located at the specified grid coordinates within the inventory.
+            If no item is found at the given coordinates, the method returns null.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.GetItemsInRect(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Retrieves all inventory items within the specified rectangular area.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.TryConsolidateStacks">
+            <summary>
+            Merges stackable items to consolidate space.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.CanPlaceItemAt(Conna.Inventory.InventoryItem,System.Int32,System.Int32,Conna.Inventory.InventoryItem[])">
+            <summary>
+            Checks if an item can be placed at the specified position, optionally excluding certain items from collision checks.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.CanMoveOrSwap(Conna.Inventory.InventoryItem,System.Int32,System.Int32)">
+            <summary>
+            Checks if an item can be moved or swapped to the target position.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.CanSwapItems(Conna.Inventory.InventoryItem,Conna.Inventory.InventoryItem)">
+            <summary>
+            Checks if two items can be swapped (each fits in the other's position).
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.TryAddAt(Conna.Inventory.InventoryItem,System.Int32,System.Int32)">
+            <summary>
+            Adds an item at a specific position. Does not merge into existing stacks.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.TryMove(Conna.Inventory.InventoryItem,System.Int32,System.Int32)">
+            <summary>
+            Moves an item to a new position within the same inventory.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.TrySwap(Conna.Inventory.InventoryItem,Conna.Inventory.InventoryItem)">
+            <summary>
+            Swaps the positions of two items in the same inventory.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.TryTransferTo(Conna.Inventory.InventoryItem,Conna.Inventory.BaseInventory)">
+            <summary>
+            Transfers an item to another inventory, placing it at the first available position.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.TryTransferToAt(Conna.Inventory.InventoryItem,Conna.Inventory.BaseInventory,System.Int32,System.Int32)">
+            <summary>
+            Transfers an item to another inventory at a specific position.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.TrySwapBetween(Conna.Inventory.InventoryItem,Conna.Inventory.InventoryItem,Conna.Inventory.BaseInventory)">
+            <summary>
+            Swaps an item from this inventory with an item in another inventory.
+            Each item ends up at the other's original position.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.TryTransferOrSwapAt(Conna.Inventory.InventoryItem,Conna.Inventory.BaseInventory,System.Int32,System.Int32,Conna.Inventory.InventoryItem@)">
+            <summary>
+            Transfers an item to another inventory, swapping with any single item at the target position.
+            If the target is empty, just transfers. If there's exactly one item, swaps.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.TryMoveOrSwap(Conna.Inventory.InventoryItem,System.Int32,System.Int32,Conna.Inventory.InventoryItem@)">
+            <summary>
+            Moves an item within the same inventory, or swaps if there's exactly one item at the target.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.TryCombineStacksTo(Conna.Inventory.InventoryItem,Conna.Inventory.InventoryItem,Conna.Inventory.BaseInventory,System.Int32,System.Int32@)">
+            <summary>
+            Combines stacks across inventories. Source is in this inventory, dest is in another.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.ClearAll">
+            <summary>
+            Clear all items from the inventory.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.ExecuteWithoutAuthority(System.Func{Conna.Inventory.InventoryResult})">
+            <summary>
+            Execute an action with authority checks bypassed.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.BaseInventory.ExecuteWithoutAuthority(System.Action)">
+            <summary>
+            Execute an action with authority checks bypassed.
+            </summary>
+        </member>
+        <member name="T:Conna.Inventory.BaseItemAsset">
+            <summary>
+            A base item asset class that inherits <see cref="T:Sandbox.GameResource"/>. Inherit this for any
+            further customization needed for game resource items.
+            </summary>
+        </member>
+        <member name="T:Conna.Inventory.ExampleInventory">
+            <summary>
+            An example inventory class.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.ExampleInventory.#ctor(System.Guid,System.Int32,System.Int32,Conna.Inventory.InventorySlotMode)">
+            <summary>
+            An example inventory class.
+            </summary>
+        </member>
+        <member name="T:Conna.Inventory.GameResourceItem`1">
+            <summary>
+            Base class for inventory items that are based from a <see cref="T:Sandbox.GameResource"/>.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.GameResourceItem`1.Resource">
+            <summary>
+            The <see cref="T:Sandbox.GameResource"/> that this item is based from.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.GameResourceItem`1.LoadFromResource(`0)">
+            <summary>
+            Load data from the specified <see cref="T:Sandbox.GameResource"/>.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.GameResourceItem`1.OnResourceUpdated(`0)">
+            <summary>
+            Called when the <see cref="P:Conna.Inventory.GameResourceItem`1.Resource"/> used for this item has been updated.
+            </summary>
+        </member>
+        <member name="T:Conna.Inventory.HostAttribute">
+            <summary>
+            Methods on an <see cref="T:Conna.Inventory.InventoryItem"/> or a <see cref="T:Conna.Inventory.BaseInventory"/> with this attribute will be invoked on the host.
+            </summary>
+        </member>
+        <member name="T:Conna.Inventory.InventoryItem">
+            <summary>
+            Base class for inventory items. Inherit this for your actual game items.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.InventoryItem.Id">
+            <summary>
+            Unique identifier for this item.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.InventoryItem.Inventory">
+            <summary>
+            The inventory that this item belongs to.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.InventoryItem.Caller">
+            <summary>
+            When inside a method with the <see cref="T:Conna.Inventory.HostAttribute"/> this will be the <see cref="T:Sandbox.Connection"/>
+            that called the method remotely.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.InventoryItem.Width">
+            <summary>
+            Size in cells. Override for non-1x1 items.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.InventoryItem.MaxStackSize">
+            <summary>
+            Maximum number of items allowed in a stack.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.InventoryItem.StackCount">
+            <summary>
+            Current number of items in the stack.
+            </summary>
+        </member>
+        <member name="F:Conna.Inventory.InventoryItem.DirtyProperties">
+            <summary>
+            A set of dirty networked properties that should be sent to all subscribers of the
+            <see cref="T:Conna.Inventory.BaseInventory"/> that this <see cref="T:Conna.Inventory.InventoryItem"/> belongs to.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.InventoryItem.Serialize(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Override to serialize the item for networking.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.InventoryItem.Deserialize(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Override to deserialize an item for networking.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.InventoryItem.CanStackWith(Conna.Inventory.InventoryItem)">
+            <summary>
+            Determines whether these two items can stack together.
+            Override to include metadata checks.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.InventoryItem.CreateStackClone(System.Int32)">
+            <summary>
+            Create a new item instance that represents the same "kind" of item, but with a new stack count.
+            Override to copy metadata fields.
+            </summary>
+        </member>
+        <member name="T:Conna.Inventory.InventorySlot">
+            <summary>
+            Where an item lives inside an inventory.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.InventorySlot.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Where an item lives inside an inventory.
+            </summary>
+        </member>
+        <member name="T:Conna.Inventory.InventorySlotMode">
+            <summary>
+            Determines how items occupy space in an inventory.
+            </summary>
+        </member>
+        <member name="F:Conna.Inventory.InventorySlotMode.Tetris">
+            <summary>
+            Items occupy space based on their Width and Height properties (Tetris-style).
+            </summary>
+        </member>
+        <member name="F:Conna.Inventory.InventorySlotMode.Single">
+            <summary>
+            All items occupy exactly one slot regardless of their actual size.
+            </summary>
+        </member>
+        <member name="T:Conna.Inventory.InventorySystem">
+            <summary>
+            A <see cref="T:Sandbox.GameObjectSystem"/> that contains all registered inventories.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.InventorySystem.GetOrCreate``1(System.Guid,System.Int32,System.Int32,Conna.Inventory.InventorySlotMode)">
+            <summary>
+            Get an inventory by its unique ID, or create a new one and register it for networking if one cannot be found. Inventories
+            created this way will be networked by default.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.InventorySystem.GetOrCreate(Sandbox.TypeDescription,System.Guid,System.Int32,System.Int32,Conna.Inventory.InventorySlotMode)">
+            <summary>
+            Get an inventory by its unique ID, or create a new one and register it for networking if one cannot be found. Inventories
+            created this way will be networked by default.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.InventorySystem.Remove(Conna.Inventory.BaseInventory)">
+            <summary>
+            Remove an inventory from the system and dispose of it.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.InventorySystem.MarkDirty(Conna.Inventory.BaseInventory)">
+            <summary>
+            Mark an inventory as being dirty. Dirty inventories are iterated each
+            tick to broadcast networked item properties to all subscribers.
+            </summary>
+            <param name="inventory"></param>
+        </member>
+        <member name="M:Conna.Inventory.InventorySystem.Register(Conna.Inventory.BaseInventory)">
+            <summary>
+            Register an inventory with this system.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.InventorySystem.Unregister(Conna.Inventory.BaseInventory)">
+            <summary>
+            Unregister an inventory from this system.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.InventorySystem.TryFind(System.Guid,Conna.Inventory.BaseInventory@)">
+            <summary>
+            Find an inventory by its unique ID.
+            </summary>
+        </member>
+        <member name="T:Conna.Inventory.NetworkMode">
+            <summary>
+            Defines how an inventory broadcasts network updates to clients.
+            </summary>
+        </member>
+        <member name="F:Conna.Inventory.NetworkMode.Subscribers">
+            <summary>
+            Only clients that have been explicitly subscribed via <see cref="M:Conna.Inventory.BaseInventory.AddSubscriber(System.Guid)"/>
+            will receive inventory updates. Best for player-specific inventories where not everyone
+            needs to see the contents.
+            </summary>
+        </member>
+        <member name="F:Conna.Inventory.NetworkMode.Global">
+            <summary>
+            All connected clients automatically receive inventory updates.
+            Best for shared world inventories that everyone can see.
+            </summary>
+        </member>
+        <member name="T:Conna.Inventory.NetworkedAttribute">
+            <summary>
+            Properties belonging to an <see cref="T:Conna.Inventory.InventoryItem"/> that have this attribute will be automatically
+            synchronized with subscribers of its parent <see cref="T:Conna.Inventory.BaseInventory"/> whenever the value changes.
+            <p><b>The property setter must be public.</b></p>
+            </summary>
+        </member>
+        <member name="T:Conna.Inventory.NetworkedInventory">
+            <summary>
+            Network accessor for inventory operations. Automatically routes through the host.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.NetworkedInventory.Enabled">
+            <summary>
+            Whether networking is enabled on this inventory. If networking is enabled, synchronization
+            of the inventory is routed through the host. The host has authority over the inventory.
+            </summary>
+        </member>
+        <member name="P:Conna.Inventory.NetworkedInventory.Mode">
+            <summary>
+            Determines how this inventory broadcasts updates to clients.
+            <see cref="F:Conna.Inventory.NetworkMode.Subscribers"/> only sends to explicitly subscribed clients.
+            <see cref="F:Conna.Inventory.NetworkMode.Global"/> broadcasts to all connected clients.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.NetworkedInventory.BroadcastItemDataChangedList(Conna.Inventory.InventoryItemDataChangedList)">
+            <summary>
+            Broadcasts item data changes to all recipients based on the current <see cref="P:Conna.Inventory.NetworkedInventory.Mode"/>.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.NetworkedInventory.BroadcastToRecipients``1(``0)">
+            <summary>
+            Broadcasts a message to all recipients based on the current <see cref="P:Conna.Inventory.NetworkedInventory.Mode"/>.
+            For <see cref="F:Conna.Inventory.NetworkMode.Subscribers"/>, only sends to subscribed clients.
+            For <see cref="F:Conna.Inventory.NetworkMode.Global"/>, sends to all connected clients.
+            </summary>
+        </member>
+        <member name="M:Conna.Inventory.SerializedEntry.CreateItem">
+            <summary>
+            Create an <see cref="T:Conna.Inventory.InventoryItem"/> from this serialized entry.
+            </summary>
+        </member>
+    </members>
+</doc>

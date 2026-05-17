@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3)",
+      "Read(//c/Program Files \\(x86\\)/Steam/steamapps/common/sbox/**)",
+      "Bash(xargs grep -l \"WrapPropertySet\")",
+      "Bash(PYTHONIOENCODING=utf-8 python3)",
+      "Bash(git -C \"C:\\\\Users\\\\rychk\\\\Documents\\\\s&box projects\\\\drone_forge\" status)",
+      "Bash(gh --version)",
+      "Bash(git --version)",
+      "PowerShell(gh --version 2>&1)",
+      "PowerShell($env:PATH = $env:PATH + \";C:\\\\Program Files\\\\GitHub CLI\"; gh auth login --web --hostname github.com --git-protocol https 2>&1)"
+    ]
+  }
+}

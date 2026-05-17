@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<AssemblyName>drone_forge</AssemblyName>
+		<PackageId>drone_forge</PackageId>
+		<LangVersion>14</LangVersion>
+		<NoWarn>1701;1702;1591;</NoWarn>
+		<WarningsAsErrors></WarningsAsErrors>
+		<TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<DefineConstants>SANDBOX</DefineConstants>
+		<AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+		<OutputPath>../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/.vs/output/</OutputPath>
+		<DocumentationFile>../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/.vs/output/drone_forge.xml</DocumentationFile>
+		<RootNamespace>Sandbox</RootNamespace>
+		<Nullable>disable</Nullable>
+		<DefaultItemExcludes>$(DefaultItemExcludes);**/editor/**;**/unittest/**</DefaultItemExcludes>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Using Include="Sandbox.Internal.GlobalGameNamespace" Static="true" />
+		<Using Include="Microsoft.AspNetCore.Components" />
+		<Using Include="Microsoft.AspNetCore.Components.Rendering" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Analyzer Include="../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Sandbox.CodeUpgrader.dll"/> 
+		<Analyzer Include="../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Sandbox.Generator.dll"/> 
+		<Reference Include="../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Sandbox.System.dll"/> 
+		<Reference Include="../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Sandbox.Engine.dll"/> 
+		<Reference Include="../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Sandbox.Filesystem.dll"/> 
+		<Reference Include="../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Sandbox.Reflection.dll"/> 
+		<Reference Include="../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Sandbox.Mounting.dll"/> 
+		<Reference Include="../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Microsoft.AspNetCore.Components.dll"/> 
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="../Libraries/bugge.vehicle_controller/Code/vehicle_controller.csproj" />
+		<ProjectReference Include="../Libraries/conna.inventory/Code/inventory.csproj" />
+		<ProjectReference Include="../Libraries/dreams.ultimatelightmanager/Code/ultimatelightmanager.csproj" />
+		<ProjectReference Include="../Libraries/facepunch.libstates/Code/libstates.csproj" />
+		<ProjectReference Include="../Libraries/icu.ai-chat/Code/ai-chat.csproj" />
+		<ProjectReference Include="../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/addons/base/code/Base Library.csproj" />
+		<ProjectReference Include="../Libraries/sboxcool.network-storage/Code/network-storage.csproj" />
+		<ProjectReference Include="../Libraries/sboxskinsgg.claudebridge/Code/claudebridge.csproj" />
+	</ItemGroup>
+
+</Project>
