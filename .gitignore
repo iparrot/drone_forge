@@ -1,6 +1,8 @@
-﻿# s&box compiled/generated output
-.addon/
-.import/
+﻿# s&box generated/cached output
+.sbox/cloud/
+.sbox/cloud.db
+.sbox/thumbnails/
+.sbox/transient/
 
 # Visual Studio
 .vs/
