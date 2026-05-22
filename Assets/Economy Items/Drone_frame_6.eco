@@ -1,0 +1,21 @@
+{
+  "Weight": 1,
+  "SellPrice": 1,
+  "BuyPrice": 2,
+  "Rarity": "Common",
+  "Icon": null,
+  "Description": "",
+  "ItemCategory": "Misc",
+  "IsDroppable": true,
+  "IsSellable": true,
+  "IsBuyable": true,
+  "IsLootable": true,
+  "CapacityBonus": 0,
+  "DisplayName": null,
+  "Category": null,
+  "MaxStackSize": 1,
+  "Width": 1,
+  "Height": 1,
+  "__references": [],
+  "__version": 0
+}

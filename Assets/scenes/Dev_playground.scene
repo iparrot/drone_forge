@@ -462,10 +462,58 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "OverrideMassCenter": false,
-          "PreciseContacts": false,
           "RigidbodyFlags": 0,
           "SleepThreshold": 2,
           "StartAsleep": false
+        },
+        {
+          "__type": "PlayerWallet",
+          "__guid": "3a4ec1eb-a766-4bc0-aa29-d055fb8710a8",
+          "__enabled": true,
+          "Flags": 0,
+          "Credits": 10,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        },
+        {
+          "__type": "DroneForge.PlayerInventoryManager",
+          "__guid": "27b38c90-35ca-4cbf-accb-0baf18d175ef",
+          "__enabled": true,
+          "Flags": 0,
+          "BaseCapacity": 50,
+          "EnableNetworking": true,
+          "EquipmentInventoryHeight": 4,
+          "EquipmentInventoryWidth": 4,
+          "MainInventoryHeight": 6,
+          "MainInventoryWidth": 10,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "StarterItems": []
+        },
+        {
+          "__type": "DroneForge.PlayerInventoryUI",
+          "__guid": "4ded377b-651f-43b9-b538-ec62fd6aea32",
+          "__enabled": true,
+          "Flags": 0,
+          "CloseSound": null,
+          "InventoryManager": null,
+          "MoveSound": null,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OpenSound": null,
+          "Wallet": null
         }
       ],
       "Children": []
@@ -896,6 +944,24 @@
           },
           "RenderType": "On",
           "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "DroneForge.ShopInteractor",
+          "__guid": "59c25cf1-e6f8-41ce-870a-e3233f0647a8",
+          "__enabled": true,
+          "Flags": 0,
+          "ForSale": [
+            "economy items/bug_net.eco"
+          ],
+          "InteractRange": 120,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "ShopName": "Suzana",
+          "StockPerItem": 10
         }
       ],
       "Children": []
@@ -921,18 +987,15 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.SelectionSetsSystem": {
-        "Data": {
-          "SelectionSets": []
-        }
-      },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
           "$blob": "4d4de256-54ca-4b30-8632-ccbc782ecb05"
         }
       },
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
+      "Sandbox.SelectionSetsSystem": {
+        "Data": {
+          "SelectionSets": []
+        }
       }
     }
   },

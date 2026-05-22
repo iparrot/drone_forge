@@ -198,7 +198,7 @@
         "__guid": "a5c92ba5-74d0-4a4b-b656-058e9245961c",
         "__enabled": true,
         "Flags": 0,
-        "Credits": 10,
+        "Credits": 200,
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
         "OnComponentEnabled": null,
@@ -222,7 +222,10 @@
         "OnComponentEnabled": null,
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
-        "OnComponentUpdate": null
+        "OnComponentUpdate": null,
+        "StarterItems": [
+          "economy items/bug_net.eco"
+        ]
       },
       {
         "__type": "DroneForge.PlayerInventoryUI",
@@ -307,7 +310,7 @@
         ],
         "Children": [
           {
-            "__guid": "2daed94e-ac2d-4825-aa03-973036bab917",
+            "__guid": "8169fdb0-7248-4fc8-b3f1-73888be428e9",
             "__version": 2,
             "Flags": 0,
             "Name": "Clothing - decorated_beard",
@@ -324,7 +327,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "73eeb6bb-c362-470c-8703-ed81dbcc6c43",
+                "__guid": "1360e19c-1e7c-4710-a597-7a049050a739",
                 "__enabled": true,
                 "Flags": 0,
                 "AnimationGraph": null,
@@ -376,7 +379,7 @@
             "Children": []
           },
           {
-            "__guid": "bc1e9a8a-e665-4766-ad9e-cd92c671a277",
+            "__guid": "dc535108-4de7-4463-9443-dd15a68855c8",
             "__version": 2,
             "Flags": 0,
             "Name": "Clothing - eyebrows_styled",
@@ -393,7 +396,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "0ca79e0e-2813-47da-922a-0f72234d6145",
+                "__guid": "82db441f-e4e6-4fbf-9aa6-e3b9d2770493",
                 "__enabled": true,
                 "Flags": 0,
                 "AnimationGraph": null,
@@ -445,7 +448,7 @@
             "Children": []
           },
           {
-            "__guid": "7b27e5ee-5d8b-4ca8-9ce4-79f90ce84bfd",
+            "__guid": "5ff3ef02-52f1-4fbc-8691-1dbaf339a88f",
             "__version": 2,
             "Flags": 0,
             "Name": "Clothing - fedora",
@@ -462,7 +465,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "fe27283c-f9f5-42ab-b165-818536aa09ad",
+                "__guid": "67cc0c26-eaa8-411d-831e-be04f6360d49",
                 "__enabled": true,
                 "Flags": 0,
                 "AnimationGraph": null,
@@ -514,7 +517,7 @@
             "Children": []
           },
           {
-            "__guid": "5bbc6154-761c-4fb9-a53d-33e2da5f1c1b",
+            "__guid": "ba3d5f64-59cf-46dd-9a6b-b8b3c2d811a2",
             "__version": 2,
             "Flags": 0,
             "Name": "Clothing - waistcoat_and_shirt",
@@ -531,7 +534,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "ca561493-73fb-4752-8da0-2e8a10e7883d",
+                "__guid": "7a7c4e52-cf85-406e-8607-be82c0b9d318",
                 "__enabled": true,
                 "Flags": 0,
                 "AnimationGraph": null,
@@ -583,7 +586,7 @@
             "Children": []
           },
           {
-            "__guid": "71b2269d-8eb7-46d9-9877-9490bfbd2fd4",
+            "__guid": "b1f73a99-842e-4f67-bce9-ba41a51c330c",
             "__version": 2,
             "Flags": 0,
             "Name": "Clothing - black_boots",
@@ -600,7 +603,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "a4d7f7ad-eec9-4a84-948e-c9cdf936d25e",
+                "__guid": "ae926753-f9e3-4a8e-b4d8-34cd83f3dd77",
                 "__enabled": true,
                 "Flags": 0,
                 "AnimationGraph": null,
@@ -652,7 +655,7 @@
             "Children": []
           },
           {
-            "__guid": "816ea31e-5862-4fb9-922b-c3f2fdbb3b82",
+            "__guid": "ce986860-9b39-46f3-ab6f-c10da947b8b0",
             "__version": 2,
             "Flags": 0,
             "Name": "Clothing - trousers.smart",
@@ -669,7 +672,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "748c58ab-3074-4866-a248-0c89fcbbb3a2",
+                "__guid": "a7bd0e02-0e17-4307-847c-415f10e49f3a",
                 "__enabled": true,
                 "Flags": 0,
                 "AnimationGraph": null,
@@ -721,7 +724,7 @@
             "Children": []
           },
           {
-            "__guid": "73596130-b50d-4727-834b-6fb9cede3620",
+            "__guid": "4acbdd08-04e9-4599-8cc4-c7e4b63359b1",
             "__version": 2,
             "Flags": 0,
             "Name": "Clothing - modern_watch",
@@ -738,7 +741,7 @@
             "Components": [
               {
                 "__type": "Sandbox.SkinnedModelRenderer",
-                "__guid": "befa7dad-a1cc-429c-a351-ba0013b26907",
+                "__guid": "c2a0e5c4-9f12-4995-bedd-99b7822a0ee7",
                 "__enabled": true,
                 "Flags": 0,
                 "AnimationGraph": null,

@@ -61,6 +61,12 @@ public sealed class PlayerInventoryManager : Component
 	public bool EnableNetworking { get; set; } = true;
 
 	/// <summary>
+	/// Items to pre-populate the inventory with on start. Useful for testing the loop without a shop.
+	/// </summary>
+	[Property, Group( "Settings" )]
+	public List<EconomyItemAsset> StarterItems { get; set; } = new();
+
+	/// <summary>
 	/// Current total weight of items in main inventory.
 	/// </summary>
 	public float CurrentWeight => MainInventory?.CalculateTotalWeight() ?? 0f;
@@ -137,6 +143,13 @@ public sealed class PlayerInventoryManager : Component
 		}
 
 		_lastEncumbranceState = EncumbranceState;
+
+		foreach ( var asset in StarterItems )
+		{
+			if ( asset == null ) continue;
+			var item = EconomyItem.CreateFromAsset( asset, 1 );
+			MainInventory.TryAdd( item );
+		}
 	}
 
 	protected override void OnDestroy()

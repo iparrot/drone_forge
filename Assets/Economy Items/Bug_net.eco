@@ -5,7 +5,7 @@
   "Rarity": "Common",
   "Icon": "economy items/icons/bug_net.sprite",
   "Description": "T1 weapon to catch drones without destroying components",
-  "ItemCategory": "Misc",
+  "ItemCategory": "Tool",
   "IsDroppable": true,
   "IsSellable": true,
   "IsBuyable": true,
